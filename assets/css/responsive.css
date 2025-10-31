@@ -1,0 +1,14 @@
+/* Mobile tweaks */
+@media (max-width:720px){
+  .main-nav{display:none}
+  .hamburger{display:block}
+  .grid.cols-3{grid-template-columns:1fr}
+  .contact-inner{grid-template-columns:1fr}
+  .testimonial-slider{flex-direction:column}
+  .header-inner{padding:12px}
+  .logo img{height:40px}
+  .btn{padding:10px 12px;font-size:0.95rem}
+  .hero h1{font-size:24px}
+  .service-grid{grid-template-columns:1fr}
+  .portfolio-grid{grid-template-columns:1fr}
+}
